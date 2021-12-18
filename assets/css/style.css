@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+:root {
+    --bone: #ece2d0;
+    --pink: #e56399;
+    --middle-blue:#7fd1b9;
+    ---brown:#d3a588;
+}
+
+body {
+    background-color: var(--bone);
+}
+
+#product-group {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2rem auto;
+
+}
+
+/* main product image */
+.main-product-image {
+    width: 50%;
+    background: linear-gradient(0.25turn, var(---brown), var(--middle-blue), #7fd1b9);
+    margin-left: 1rem;
+}
