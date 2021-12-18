@@ -30,3 +30,24 @@ body {
     background: linear-gradient(0.25turn, var(---brown), var(--middle-blue), #7fd1b9);
     margin-left: 1rem;
 }
+
+nav {
+    display: flex;
+    padding: 1rem;;
+    border-bottom: 1px solid var(--deep-brown);
+}
+
+#menu {
+    display:flex;
+    margin-left: 2.5rem;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 2.5rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: var(--deep-brown);
+}
